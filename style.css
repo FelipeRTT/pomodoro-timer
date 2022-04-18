@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+*{
+    font-family: 'Square Peg', cursive;
+    color: black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.titulo{
+    font-size: 60px;
+}
+
+.timer{
+    font-size: 80px;
+}
+
+.relogio{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* fazendo efeito de vidro com backdrop-filter */
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px) saturate(180%);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 500px;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 40px;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.iniciarPomodoro{
+    color: black;
+    font-size: 30px;
+    padding: 3px 10px;
+}
+
+.pararP{
+    color: black;
+    font-size: 30px;
+    padding: 3px 10px;
+}
+
+.descansar{
+    /* display: none; */
+    color: black;
+    font-size: 30px;
+    padding: 3px 10px;
+}
+
+/* .active{
+    display:'';
+} */
