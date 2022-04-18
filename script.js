@@ -96,14 +96,14 @@ function resetar(){
     segundosP = 60;
     minutosP = 24
     naoReset = false
-    tocando = true;
+    tocando = false;
 
 }
 
 
 
 function tocarAudio(){
-    if(tocando = true){
+    if(tocando == true){
         audio.play()
     }
     
